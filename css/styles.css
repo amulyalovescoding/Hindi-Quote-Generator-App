@@ -41,6 +41,10 @@ picture img {
   width: 90%;
 }
 
+.quote {
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+
 .dice-container {
   padding: 1rem;
   background-color: hsl(150, 100%, 66%);
