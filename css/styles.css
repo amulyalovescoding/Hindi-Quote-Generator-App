@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+  height: 50vh;
+}
+
+main {
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 1rem;
+  box-shadow: 0.125rem 0.125rem 2.5rem hsl(218, 23%, 12%);
+  display: flex;
+  margin-top: 15%;
+  padding: 2rem;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  width: 34.375rem !important;
+}
+
+h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3125rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: hsl(193, 38%, 86%);
+  font-size: 1.75rem;
+}
+
+picture img {
+  margin: 1.5rem 0;
+  width: 90%;
+}
+
+.dice-container {
+  padding: 1rem;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 100%;
+  position: absolute;
+  bottom: -1.7rem;
+}
+
+.dice-container:hover {
+  box-shadow: 0.125rem 0.125rem 1.25rem hsl(150, 100%, 66%);
+}
+
+/* footer section */
+.attribution {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #BFBFBF;
+  font-size: 0.6875rem;
+  padding: 2.5rem 0 2.5rem 0;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(248, 32%, 49%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsl(154, 59%, 51%);
+  background-color: #fff;
+}
+
+/* media query */
+@media (max-width: 62rem) {
+  main {
+    padding: 1.875rem 1.375rem !important;
+    width: 28.125rem !important;
+  }
+
+  h1 {
+    font-size: 0.6rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  picture img {
+    margin: 1rem 0;
+  }
+
+  .dice-container {
+    padding: 0.75rem;
+  }
+
+  .dice-container img {
+    width: 85%;
+  }
+}
+
+@media (max-width: 28.75rem) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    padding: 1.75rem 1.125rem !important;
+    width: 90% !important;
+  }
+
+  h1 {
+    font-size: 0.5rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  picture img {
+    margin: 0.5rem 0;
+    width: 80%;
+  }
+}
+
+@media (max-width: 24.6875rem) {
+  main {
+    padding: 1.5625rem 1rem !important;
+  }
+
+  h1 {
+    font-size: 0.45rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
